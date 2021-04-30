@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backendless</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+<div class="preloader">
+    <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="#000" d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+        </path>
+    </svg>
+</div>
+
+<header class="header" id="header">
+    <div class="header__container">
+        <div class="header__title"><a href="#">Backendless</a></div>
+        <div class="header__togglers">
+            <input name="switcher" type="radio" id="lightTheme" checked>
+            <label for="lightTheme">Light Theme</label>
+
+            <input name="switcher" type="radio" id="darkTheme">
+            <label for="darkTheme">Dark Theme</label>
+
+            <input name="switcher" type="radio" id="backendlessTheme">
+            <label for="backendlessTheme">Backendless Theme</label>
+
+            <div class="header__buttons">
+                <button id="lightButton">Light Theme</button>
+                <button id="darkButton">Dark Theme</button>
+                <button id="backButton">Backendless Theme</button>
+            </div>
+
+            <select class="header__buttons-select" id="select" onchange="selection()">
+                <option value="lightTheme" selected>Light Theme</option>
+                <option value="darkTheme">Dark Theme</option>
+                <option value="backTheme">Backendless Theme</option>
+            </select>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <h1 class="main__title">
+        <span>B</span>
+        <span>A</span>
+        <span>C</span>
+        <span>K</span>
+        <span>E</span>
+        <span>N</span>
+        <span>D</span>
+        <span>L</span>
+        <span>E</span>
+        <span>S</span>
+        <span>S</span>
+        <span> </span>
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+    <div class="container">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+        <div class="block">4</div>
+        <div class="block">5</div>
+        <div class="block">6</div>
+        <div class="block">7</div>
+        <div class="block">8</div>
+        <div class="block">9</div>
+        <div class="block">10</div>
+        <div class="block">11</div>
+        <div class="block">12</div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="footer__container">
+        <div class="footer__contacts">
+            <a class="footer__link" href="#">Backendless.com</a>
+            <a class="footer__phone" href="tel:555-55-55">555-55-55</a>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>    
+</body>
+</html>
