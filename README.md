@@ -1,1 +1,1 @@
-https://ekartashian.github.io/themechanger/
+https://eugenekartashian.github.io/themechanger/
